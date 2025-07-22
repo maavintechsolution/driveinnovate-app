@@ -61,8 +61,8 @@ const Login = () => {
             <div className="card px-sm-6 px-0">
               <div className="card-body">
                 <div className="app-brand justify-content-center mb-4">
-                  <img src="/assets/img/brand-logo.png" alt="Drive Innovate Logo" style={{ height: 110, marginRight: 12 }} />
-                  {/* <span className="app-brand-text demo text-heading fw-bold">Drive Innovate</span> */}
+                  <!--img src="/assets/img/brand-logo.png" alt="Drive Innovate Logo" style={{ height: 110, marginRight: 12 }} /-->
+                  <span className="app-brand-text demo text-heading fw-bold">Drive Innovate</span>
                 </div>
                 <h4 className="mb-1">Welcome to Drive! 👋</h4>
                 <p className="mb-6">Please sign-in to your account and start the adventure</p>
