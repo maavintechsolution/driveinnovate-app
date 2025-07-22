@@ -1,0 +1,57 @@
+.stripes-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.stripe {
+  position: absolute;
+  width: 120vw;
+  height: 40px;
+  opacity: 0.15;
+  border-radius: 20px;
+  animation: moveStripe 8s linear infinite;
+}
+
+.stripe1 {
+  top: 10vh;
+  left: -20vw;
+  background: linear-gradient(90deg, #696cff 60%, #03c3ec 100%);
+  animation-delay: 0s;
+}
+.stripe2 {
+  top: 30vh;
+  left: -20vw;
+  background: linear-gradient(90deg, #ffab00 60%, #71dd37 100%);
+  animation-delay: 2s;
+}
+.stripe3 {
+  top: 50vh;
+  left: -20vw;
+  background: linear-gradient(90deg, #ff3e1d 60%, #8592a3 100%);
+  animation-delay: 4s;
+}
+.stripe4 {
+  top: 70vh;
+  left: -20vw;
+  background: linear-gradient(90deg, #696cff 60%, #03c3ec 100%);
+  animation-delay: 6s;
+}
+
+@keyframes moveStripe {
+  0% { left: -20vw; }
+  100% { left: 100vw; }
+}
+
+/* Ensure form content is above the animation */
+.authentication-wrapper,
+.authentication-inner,
+.card {
+  position: relative;
+  z-index: 1;
+}
