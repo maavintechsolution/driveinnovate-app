@@ -34,7 +34,7 @@ const ForgotPassword = () => {
             <div className="card px-sm-6 px-0">
               <div className="card-body">
                 <div className="app-brand justify-content-center mb-6">
-                  <!--img src="/assets/img/brand-logo.png" alt="Drive Innovate Logo" style={{ height: 110, marginRight: 12 }} /-->
+                  
                   <span className="app-brand-text demo text-heading fw-bold">Drive Innovate</span>
                 </div>
                 <h4 className="mb-1">Forgot Password? 🔒</h4>
